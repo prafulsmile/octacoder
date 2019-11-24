@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validation</title>
+
+
+	<style type="text/css">
+	
+form
+{
+	background-color: lightblue;
+	width: 30%;
+	padding: 10px;
+	border: solid 2px;
+	margin: 20px;
+}
+</style>
+
+</head>
+<body>
+<form method="">
+<h3>Registration Form</h3>	
+<label>	Name</label><br><input type="text" name="name" pattern="[A-Z a-z]{6}" maxlength="6"  required><br>
+<label>	Mob no.</label><br><input type="number" pattern="[0-9]{10}" maxlength="10" required><br>
+<label>	Roll no</label><br><input type="text" name="roll" pattern="[0-9]{6}" maxlength="6" required=""><br>
+<label>	Email</label><br><input type="email" name="email" required><br>
+<label>	DOB</label><br><input type="date" name="DOB" max="2019-10-17" min="2019-01-01" required ><br><br>
+<label>Gender:</label>
+  <input type="radio" name="gender" value="male" checked>Male
+  <input type="radio" name="gender" value="female">Female<br><br>
+
+<label>Course</label><br>
+<select name="Course">
+     <option value="php">PHP</option>
+      <option value="java" selected>JAVA</option>
+       <option value="bootstrap">Bootstrap</option>
+        <option value="python">Python</option>
+ </select> <br><br><br>
+
+ <label>Hobbies:</label>
+  <input type="checkbox" name="hobby" value="reading" checked>reading
+  <input type="checkbox" name="hobby" value="Playing">Playing
+  <input type="checkbox" name="hobby" value="dancing">dancing
+  <br><br>
+  
+<label>Address</label><br><textarea></textarea><br>
+
+<label>City</label><br><input placeholder="City" type="text" name="city"><br>
+<label>State</label><br><input type="text" name="state"><br>
+<label>Country</label><br><input type="text" name="Country"><br>
+<br>Submit <input type="Submit" name="submit">
+
+
+<a href="#">Tearms & Conditions</a>
+</form>
+
+</body>
+</html>
