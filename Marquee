@@ -1,0 +1,69 @@
+<html>
+<head> 
+</head>
+	<Title>HTML PROGRAMS</Title>
+<body>
+	<h2>HTML TAGS</h2>
+	<h4>Link tag</h4>
+	<a href="www.facebook.com">fb.com</a>
+<p>for new tab it uses target Property </p>
+	<a href="www.facebook.com" target="blank">fb.com</a>
+<p>for Multiple new tab it uses target it uses value-  _blank</p>
+	<a href="www.facebook.com" target="_blank">fb.com</a>
+<br>
+<h4>Image tag</h4>
+<p>For img tag it uses for upload img help of src property</p>
+<img src="C:\Users\Praful\Desktop\idol.jpg" height="200px" width="200px">
+<br>
+<br>
+<h3>*Marquee Tags</h3>
+<b>By Defaule Direction is right to left and speed is 6</b>
+<marquee><h4>Welcome to Data Council </h4></marquee>
+<br>
+<h3>for speed controll use scrollamount</h3>
+<marquee scrollamount="8">Prafulsmile speed is 8</marquee><br>
+<marquee scrollamount="12">Prafulsmile speed is 12</marquee>
+<br>
+<br>
+<h3>*for directioin</h3>
+<b>by default direction is left to right no need to use direction property</b>
+<marquee direction="left">this text will scroll Right to Left Direction</marquee>
+<b>for left to right direction</b><br>
+<marquee direction="right">this text willscroll Left to Right Direction</marquee>
+<br>
+<b>for up direction</b> 
+<marquee direction="up" height="150px">"The Future Belongs to those who prepare for it today"</marquee>
+
+<b>for down direction</b> 
+<marquee direction="down" height="150px">"The Future Belongs to those who prepare for it today"</marquee>
+<br>
+<p>
+	<h3>*Behavior</h3>
+	<b>Slide</b> 
+	<marquee behavior="slide">"The Future Belongs to those who prepare for it today"</marquee>
+	<br>
+	<b>alternate </b> 
+	<marquee behavior="alternate">"The Future Belongs to those who prepare for it today"</marquee>
+
+
+
+</p>
+<p>
+	<h3>*Events</h3>
+	<b>Onmouse event</b><br>
+	<b>Onmouse enter</b>
+	<b>this.stop when mouse cursour goes on text line then text scrolling will stop</b> 
+	<marquee onmouseenter="this.stop()">"The Future Belongs to those who prepare for it today"</marquee>
+	<br>
+	<b>Onmouse out</b>
+	<b>this.start when mouse cursour goes on text line then text scrolling will start again </b> 
+	<marquee onmouseenter="this.start()">"The Future Belongs to those who prepare for it today"</marquee>
+	<br>
+
+
+
+</p>
+
+
+</body>
+</html>
